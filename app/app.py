@@ -3,7 +3,7 @@
 from bs4 import BeautifulSoup
 from wsgiref import headers
 from django.shortcuts import render
-from flask import Flask, render_template, request, Markup
+from flask import Flask, render_template, request, redirect, Markup
 import numpy as np
 import pandas as pd
 from utils.disease import disease_dic
